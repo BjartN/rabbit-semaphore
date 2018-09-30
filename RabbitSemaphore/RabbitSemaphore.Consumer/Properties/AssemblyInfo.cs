@@ -8,7 +8,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RabbitSemaphore.Consumer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
 [assembly: AssemblyProduct("RabbitSemaphore.Consumer")]
 [assembly: AssemblyCopyright("Copyright Bjarte Djuvik Næss")]
 [assembly: AssemblyTrademark("")]
