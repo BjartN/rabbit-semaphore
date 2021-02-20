@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2016
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSemaphore.Consumer", "RabbitSemaphore.Consumer\RabbitSemaphore.Consumer.csproj", "{F8183FEF-32A2-4529-8A99-673595EB3AD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSemaphore.Core", "RabbitSemaphore.Core\RabbitSemaphore.Core.csproj", "{BBC1A86C-69CE-490C-B4AB-9DBCEDFC6ACF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSemaphore.StartUp", "RabbitSemaphore.StartUp\RabbitSemaphore.StartUp.csproj", "{0DF3C576-7DE2-4248-897B-826689562F41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerLock.StartUp", "SqlServerLock.StartUp\SqlServerLock.StartUp.csproj", "{B1C84376-1EA1-4945-9F0B-E1876116A1FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0DF3C576-7DE2-4248-897B-826689562F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DF3C576-7DE2-4248-897B-826689562F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DF3C576-7DE2-4248-897B-826689562F41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C84376-1EA1-4945-9F0B-E1876116A1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C84376-1EA1-4945-9F0B-E1876116A1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C84376-1EA1-4945-9F0B-E1876116A1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C84376-1EA1-4945-9F0B-E1876116A1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
